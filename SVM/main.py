@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 from __future__ import print_function
 import pandas as pd # pandas、csv、numpy是读取文件或处理数组等工具包
 import csv
@@ -9,8 +8,8 @@ import gensim # 从gensim工具包中导入Word2Vec工具包
 from gensim.models.word2vec import LineSentence
 from gensim.models import Word2Vec
 from sklearn import svm # sklearn工具包导入支持向量机算法
-from sklearn.model_selection import train_test_split #从sklearn工具包导入数据集划分工具
-from sklearn.metrics import confusion_matrix #从sklearn工具包导入评价指标：混淆矩阵和f1值
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import confusion_matrix 
 from classification_utilities import display_cm #给混淆矩阵加表头
 import joblib #储存或调用模型时使用
 import multiprocessing #多进程模块

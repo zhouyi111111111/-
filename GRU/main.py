@@ -20,7 +20,6 @@ from matplotlib import pyplot as plt
 import seaborn as sns
 
 # 数据处理
-# """判断一个unicode是否是汉字"""
 def is_chinese(uchar):
     if (uchar >= '\u4e00' and uchar <= '\u9fa5') :
         return True

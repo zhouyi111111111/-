@@ -86,7 +86,6 @@ train_seq = tok.texts_to_sequences(X_train)
 val_seq = tok.texts_to_sequences(X_val)
 test_seq = tok.texts_to_sequences(X_test)
 # print(train_seq)
-## 将每个序列调整为相同的长度
 train_seq_mat = sequence.pad_sequences(train_seq,maxlen=max_len)
 val_seq_mat = sequence.pad_sequences(val_seq,maxlen=max_len)
 test_seq_mat = sequence.pad_sequences(test_seq,maxlen=max_len)
